@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D18675CF5EC070F7C900B8 /* Pods_ToggleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8478275CB5CEB6BEC49B885E /* Pods_ToggleExample.framework */; };
+		F727FE301D752E21002DBC10 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727FE2F1D752E21002DBC10 /* AFNetworking.framework */; };
+		F727FE321D752E24002DBC10 /* STPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727FE311D752E24002DBC10 /* STPopup.framework */; };
+		F727FE341D752E26002DBC10 /* Underscore_m.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727FE331D752E26002DBC10 /* Underscore_m.framework */; };
+		F74193521D7539E400DD7131 /* ToggleHQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727FE2D1D752E1B002DBC10 /* ToggleHQ.framework */; };
+		F767AF011A2EAFA10056BF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F767AF001A2EAFA10056BF58 /* main.m */; };
+		F767AF041A2EAFA10056BF58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F767AF031A2EAFA10056BF58 /* AppDelegate.m */; };
+		F767AF0A1A2EAFA10056BF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F767AF081A2EAFA10056BF58 /* Main.storyboard */; };
+		F767AF0F1A2EAFA10056BF58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F767AF0D1A2EAFA10056BF58 /* LaunchScreen.xib */; };
+		F767AF1B1A2EAFA10056BF58 /* ToggleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F767AF1A1A2EAFA10056BF58 /* ToggleExampleTests.m */; };
+		F767AF291A2EB34C0056BF58 /* MainNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = F767AF281A2EB34C0056BF58 /* MainNavigation.m */; };
+		F76950B21D0AD83600D272A0 /* ToggleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76950B11D0AD83600D272A0 /* ToggleBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F767AF151A2EAFA10056BF58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F767AEF31A2EAFA10056BF58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F767AEFA1A2EAFA10056BF58;
+			remoteInfo = ToggleExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5724BAE91D5A3B9F00E70334 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6999717A61EDE25D695ED4CD /* Pods-ToggleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToggleExample/Pods-ToggleExample.release.xcconfig"; sourceTree = "<group>"; };
+		8478275CB5CEB6BEC49B885E /* Pods_ToggleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6679508121BB60AF6AEA664 /* Pods-ToggleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToggleExample/Pods-ToggleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F727FE2D1D752E1B002DBC10 /* ToggleHQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToggleHQ.framework; path = "../../../Library/Developer/Xcode/DerivedData/ToggleExample-bqesmrgjuayjojaduwvwkfuimgkg/Build/Products/Debug-iphonesimulator/ToggleHQ/ToggleHQ.framework"; sourceTree = "<group>"; };
+		F727FE2F1D752E21002DBC10 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/ToggleExample-bqesmrgjuayjojaduwvwkfuimgkg/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		F727FE311D752E24002DBC10 /* STPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STPopup.framework; path = "../../../Library/Developer/Xcode/DerivedData/ToggleExample-bqesmrgjuayjojaduwvwkfuimgkg/Build/Products/Debug-iphonesimulator/STPopup/STPopup.framework"; sourceTree = "<group>"; };
+		F727FE331D752E26002DBC10 /* Underscore_m.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Underscore_m.framework; path = "../../../Library/Developer/Xcode/DerivedData/ToggleExample-bqesmrgjuayjojaduwvwkfuimgkg/Build/Products/Debug-iphonesimulator/Underscore.m/Underscore_m.framework"; sourceTree = "<group>"; };
+		F72B5A751A7FC66900616565 /* chat_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_blank@2x.png"; sourceTree = "<group>"; };
+		F767AEFB1A2EAFA10056BF58 /* ToggleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F767AEFF1A2EAFA10056BF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F767AF001A2EAFA10056BF58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F767AF021A2EAFA10056BF58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F767AF031A2EAFA10056BF58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F767AF091A2EAFA10056BF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F767AF0B1A2EAFA10056BF58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F767AF0E1A2EAFA10056BF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F767AF141A2EAFA10056BF58 /* ToggleExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F767AF191A2EAFA10056BF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F767AF1A1A2EAFA10056BF58 /* ToggleExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleExampleTests.m; sourceTree = "<group>"; };
+		F767AF271A2EB34C0056BF58 /* MainNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigation.h; sourceTree = "<group>"; };
+		F767AF281A2EB34C0056BF58 /* MainNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigation.m; sourceTree = "<group>"; };
+		F76950B01D0AD83600D272A0 /* ToggleBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleBaseViewController.h; sourceTree = "<group>"; };
+		F76950B11D0AD83600D272A0 /* ToggleBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToggleBaseViewController.m; sourceTree = "<group>"; };
+		F7EE410E1D08D66300437BB1 /* icon-dot-notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-dot-notification.png"; sourceTree = "<group>"; };
+		F7EE410F1D08D66300437BB1 /* icon-dot-notification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-dot-notification@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F767AEF81A2EAFA10056BF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74193521D7539E400DD7131 /* ToggleHQ.framework in Frameworks */,
+				F727FE341D752E26002DBC10 /* Underscore_m.framework in Frameworks */,
+				F727FE321D752E24002DBC10 /* STPopup.framework in Frameworks */,
+				F727FE301D752E21002DBC10 /* AFNetworking.framework in Frameworks */,
+				A4D18675CF5EC070F7C900B8 /* Pods_ToggleExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767AF111A2EAFA10056BF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F1B894FB16DC1067957571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F727FE331D752E26002DBC10 /* Underscore_m.framework */,
+				F727FE311D752E24002DBC10 /* STPopup.framework */,
+				F727FE2F1D752E21002DBC10 /* AFNetworking.framework */,
+				F727FE2D1D752E1B002DBC10 /* ToggleHQ.framework */,
+				8478275CB5CEB6BEC49B885E /* Pods_ToggleExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFC23463C3AA870218F9074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6679508121BB60AF6AEA664 /* Pods-ToggleExample.debug.xcconfig */,
+				6999717A61EDE25D695ED4CD /* Pods-ToggleExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F72B5A731A7FC5CF00616565 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F72B5A741A7FC5D700616565 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F72B5A741A7FC5D700616565 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F7EE410E1D08D66300437BB1 /* icon-dot-notification.png */,
+				F7EE410F1D08D66300437BB1 /* icon-dot-notification@2x.png */,
+				F72B5A751A7FC66900616565 /* chat_blank@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F767AEF21A2EAFA10056BF58 = {
+			isa = PBXGroup;
+			children = (
+				F767AEFD1A2EAFA10056BF58 /* ToggleExample */,
+				F767AF171A2EAFA10056BF58 /* ToggleExampleTests */,
+				F767AEFC1A2EAFA10056BF58 /* Products */,
+				5EFC23463C3AA870218F9074 /* Pods */,
+				45F1B894FB16DC1067957571 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F767AEFC1A2EAFA10056BF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F767AEFB1A2EAFA10056BF58 /* ToggleExample.app */,
+				F767AF141A2EAFA10056BF58 /* ToggleExample.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F767AEFD1A2EAFA10056BF58 /* ToggleExample */ = {
+			isa = PBXGroup;
+			children = (
+				F72B5A731A7FC5CF00616565 /* Resources */,
+				F767AF021A2EAFA10056BF58 /* AppDelegate.h */,
+				F767AF031A2EAFA10056BF58 /* AppDelegate.m */,
+				F767AF081A2EAFA10056BF58 /* Main.storyboard */,
+				F767AF0B1A2EAFA10056BF58 /* Images.xcassets */,
+				F767AF0D1A2EAFA10056BF58 /* LaunchScreen.xib */,
+				F767AEFE1A2EAFA10056BF58 /* Supporting Files */,
+				F767AF271A2EB34C0056BF58 /* MainNavigation.h */,
+				F767AF281A2EB34C0056BF58 /* MainNavigation.m */,
+				F76950B01D0AD83600D272A0 /* ToggleBaseViewController.h */,
+				F76950B11D0AD83600D272A0 /* ToggleBaseViewController.m */,
+			);
+			path = ToggleExample;
+			sourceTree = "<group>";
+		};
+		F767AEFE1A2EAFA10056BF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F767AEFF1A2EAFA10056BF58 /* Info.plist */,
+				F767AF001A2EAFA10056BF58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F767AF171A2EAFA10056BF58 /* ToggleExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F767AF1A1A2EAFA10056BF58 /* ToggleExampleTests.m */,
+				F767AF181A2EAFA10056BF58 /* Supporting Files */,
+			);
+			path = ToggleExampleTests;
+			sourceTree = "<group>";
+		};
+		F767AF181A2EAFA10056BF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F767AF191A2EAFA10056BF58 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F767AEFA1A2EAFA10056BF58 /* ToggleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F767AF1E1A2EAFA10056BF58 /* Build configuration list for PBXNativeTarget "ToggleExample" */;
+			buildPhases = (
+				7D558F1C0E649E9F6F34C5ED /* [CP] Check Pods Manifest.lock */,
+				F767AEF71A2EAFA10056BF58 /* Sources */,
+				F767AEF81A2EAFA10056BF58 /* Frameworks */,
+				F767AEF91A2EAFA10056BF58 /* Resources */,
+				5262ED731DCED74753C33CE6 /* [CP] Embed Pods Frameworks */,
+				9569EF42DA88DABF6F22E68E /* [CP] Copy Pods Resources */,
+				5724BAE91D5A3B9F00E70334 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleExample;
+			productName = ToggleExample;
+			productReference = F767AEFB1A2EAFA10056BF58 /* ToggleExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F767AF131A2EAFA10056BF58 /* ToggleExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F767AF211A2EAFA10056BF58 /* Build configuration list for PBXNativeTarget "ToggleExampleTests" */;
+			buildPhases = (
+				F767AF101A2EAFA10056BF58 /* Sources */,
+				F767AF111A2EAFA10056BF58 /* Frameworks */,
+				F767AF121A2EAFA10056BF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F767AF161A2EAFA10056BF58 /* PBXTargetDependency */,
+			);
+			name = ToggleExampleTests;
+			productName = ToggleExampleTests;
+			productReference = F767AF141A2EAFA10056BF58 /* ToggleExample.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F767AEF31A2EAFA10056BF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Toggle;
+				TargetAttributes = {
+					F767AEFA1A2EAFA10056BF58 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6P5GJJD7GG;
+						DevelopmentTeamName = "Michael Fogg";
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F767AF131A2EAFA10056BF58 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F767AEFA1A2EAFA10056BF58;
+					};
+				};
+			};
+			buildConfigurationList = F767AEF61A2EAFA10056BF58 /* Build configuration list for PBXProject "ToggleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F767AEF21A2EAFA10056BF58;
+			productRefGroup = F767AEFC1A2EAFA10056BF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F767AEFA1A2EAFA10056BF58 /* ToggleExample */,
+				F767AF131A2EAFA10056BF58 /* ToggleExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F767AEF91A2EAFA10056BF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767AF0A1A2EAFA10056BF58 /* Main.storyboard in Resources */,
+				F767AF0F1A2EAFA10056BF58 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767AF121A2EAFA10056BF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5262ED731DCED74753C33CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToggleExample/Pods-ToggleExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D558F1C0E649E9F6F34C5ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9569EF42DA88DABF6F22E68E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToggleExample/Pods-ToggleExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F767AEF71A2EAFA10056BF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76950B21D0AD83600D272A0 /* ToggleBaseViewController.m in Sources */,
+				F767AF291A2EB34C0056BF58 /* MainNavigation.m in Sources */,
+				F767AF041A2EAFA10056BF58 /* AppDelegate.m in Sources */,
+				F767AF011A2EAFA10056BF58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767AF101A2EAFA10056BF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767AF1B1A2EAFA10056BF58 /* ToggleExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F767AF161A2EAFA10056BF58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F767AEFA1A2EAFA10056BF58 /* ToggleExample */;
+			targetProxy = F767AF151A2EAFA10056BF58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F767AF081A2EAFA10056BF58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F767AF091A2EAFA10056BF58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F767AF0D1A2EAFA10056BF58 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F767AF0E1A2EAFA10056BF58 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F767AF1C1A2EAFA10056BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/ToggleHQ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F767AF1D1A2EAFA10056BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/ToggleHQ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F767AF1F1A2EAFA10056BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6679508121BB60AF6AEA664 /* Pods-ToggleExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ToggleExample/ToggleExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ToggleExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.togglehq.example-app";
+				PRODUCT_NAME = ToggleExample;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToggleExample/ToggleExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F767AF201A2EAFA10056BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6999717A61EDE25D695ED4CD /* Pods-ToggleExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ToggleExample/ToggleExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/ToggleHQ",
+				);
+				INFOPLIST_FILE = ToggleExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.togglehq.example-app";
+				PRODUCT_NAME = ToggleExample;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToggleExample/ToggleExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F767AF221A2EAFA10056BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToggleExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toggle.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ToggleExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleExample.app/ToggleExample";
+			};
+			name = Debug;
+		};
+		F767AF231A2EAFA10056BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToggleExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toggle.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ToggleExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleExample.app/ToggleExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F767AEF61A2EAFA10056BF58 /* Build configuration list for PBXProject "ToggleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767AF1C1A2EAFA10056BF58 /* Debug */,
+				F767AF1D1A2EAFA10056BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F767AF1E1A2EAFA10056BF58 /* Build configuration list for PBXNativeTarget "ToggleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767AF1F1A2EAFA10056BF58 /* Debug */,
+				F767AF201A2EAFA10056BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F767AF211A2EAFA10056BF58 /* Build configuration list for PBXNativeTarget "ToggleExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767AF221A2EAFA10056BF58 /* Debug */,
+				F767AF231A2EAFA10056BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F767AEF31A2EAFA10056BF58 /* Project object */;
+}
