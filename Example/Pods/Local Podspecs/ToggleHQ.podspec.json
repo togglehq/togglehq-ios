@@ -1,0 +1,35 @@
+{
+  "name": "ToggleHQ",
+  "version": "0.1.0",
+  "summary": "iOS SDK for ToggleHQ",
+  "homepage": "https://togglehq.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ToggleHQ": "feedback+ios@togglehq.com"
+  },
+  "source": {
+    "git": "https://github.com/togglehq/toggle-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "Underscore.m": [
+
+    ],
+    "SCLAlertView-Objective-C": [
+
+    ]
+  },
+  "public_header_files": "ToggleHQ.framework/Headers/*.h",
+  "module_map": "ToggleHQ.framework/Modules/module.modulemap",
+  "frameworks": "UIKit",
+  "vendored_frameworks": "ToggleHQ.framework"
+}

@@ -1,0 +1,6 @@
+target 'ToggleHQ_Example' do
+  use_frameworks!
+
+  pod 'ToggleHQ', :path => '../'
+  # pod 'ToggleHQ', :path => '~/sites/upwork/togglehq-ios'
+end
