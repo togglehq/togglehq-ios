@@ -28,8 +28,8 @@
 
     ]
   },
-  "public_header_files": "ToggleHQ.framework/Headers/*.h",
-  "module_map": "ToggleHQ.framework/Modules/module.modulemap",
+  "source_files": "ToggleHQ.framework/**/*",
+  "public_header_files": "ToggleHQ.framework/Headers/*{.h}",
   "frameworks": "UIKit",
   "vendored_frameworks": "ToggleHQ.framework"
 }

@@ -4,6 +4,7 @@
 //
 
 #import "ToggleBaseViewController.h"
+#import <ToggleHQ/ToggleHQ.h>
 
 @interface ToggleBaseViewController ()
 

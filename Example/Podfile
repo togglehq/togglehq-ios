@@ -3,4 +3,5 @@ target 'ToggleHQ_Example' do
 
   pod 'ToggleHQ', :path => '../'
   # pod 'ToggleHQ', :path => '~/sites/upwork/togglehq-ios'
+  # pod 'ToggleHQ', :git => 'https://github.com/togglehq/togglehq-ios.git'
 end

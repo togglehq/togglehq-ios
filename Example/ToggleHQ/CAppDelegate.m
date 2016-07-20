@@ -6,8 +6,6 @@
 #import <UIKit/UIKit.h>
 #import "CAppDelegate.h"
 
-@import ToggleHQ;
-
 @implementation CAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

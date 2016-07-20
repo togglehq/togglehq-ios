@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.dependency 'Underscore.m'
   s.dependency 'SCLAlertView-Objective-C'
 
-  # s.source_files = 'ToggleHQ/Frameworks/ToggleHQ.framework/Headers/*.h'
-  s.public_header_files = 'ToggleHQ.framework/Headers/*.h'
+  s.source_files = 'ToggleHQ.framework/**/*'
+  s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
   # s.preserve_paths = "ToggleHQ.framework/*"
-  s.module_map = "ToggleHQ.framework/Modules/module.modulemap"
+  # s.module_map = "ToggleHQ.framework/Modules/module.modulemap"
 
   s.frameworks = 'UIKit'
   s.vendored_frameworks = "ToggleHQ.framework"

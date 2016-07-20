@@ -87,11 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework"
   install_framework "${PODS_ROOT}/../../ToggleHQ.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ToggleHQ/ToggleHQ.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Underscore.m/Underscore_m.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework"
   install_framework "${PODS_ROOT}/../../ToggleHQ.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ToggleHQ/ToggleHQ.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Underscore.m/Underscore_m.framework"
 fi
