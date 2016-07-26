@@ -16,7 +16,7 @@ ToggleHQ is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ToggleHQ", :git => "https://github.com/mikefogg/ToggleHQ.git"
+pod "ToggleHQ", :git => "https://github.com/togglehq/togglehq-ios-cocoapod.git"
 ```
 
 ## License
