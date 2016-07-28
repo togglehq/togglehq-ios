@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ToggleHQ.framework/**/*'
   s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
+  s.ios.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/ToggleHQ' }
   # s.preserve_paths = "ToggleHQ.framework/*"
   # s.module_map = "ToggleHQ.framework/Modules/module.modulemap"
 
