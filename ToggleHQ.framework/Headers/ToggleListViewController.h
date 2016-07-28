@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+@import Underscore_m;
 #import "Underscore.h"
 #import <ToggleHQ/Toggle.h>
 #import <ToggleHQ/ToggleListViewSingleCell.h>

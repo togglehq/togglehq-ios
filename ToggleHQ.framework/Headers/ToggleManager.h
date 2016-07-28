@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <sys/utsname.h>
+@import AFNetworking;
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/AFHTTPRequestOperation.h>
 #import <AFNetworking/AFHTTPRequestOperationManager.h>
+@import SCLAlertView_Objective_C;
 #import "SCLAlertView.h"
 #import "SCLAlertViewStyleKit.h"
 #import <ToggleHQ/ToggleListViewController.h>
