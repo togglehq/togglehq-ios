@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license = { type: 'MIT', file: 'LICENSE' }
   s.authors = { "ToggleHQ" => 'feedback+ios@togglehq.com' }
 
-  s.source           = { :git => 'https://github.com/togglehq/toggle-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mikefogg/toggle-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ToggleHQ.framework/**/*'
   s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
-  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/ToggleHQ' }
+  s.resources = 'ToggleHQ.framework/*{.xib,.nib}'
+
+  # s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/ToggleHQ' }
   # s.preserve_paths = "ToggleHQ.framework/*"
   # s.module_map = "ToggleHQ.framework/Modules/module.modulemap"
 
