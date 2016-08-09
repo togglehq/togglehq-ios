@@ -13,10 +13,9 @@ Pod::Spec.new do |s|
   s.homepage = "https://togglehq.com"
   s.license = { type: 'MIT', file: 'LICENSE' }
   s.authors = { "ToggleHQ" => 'feedback+ios@togglehq.com' }
-
-  s.source           = { :git => 'https://github.com/mikefogg/toggle-ios.git', :tag => s.version.to_s }
-
   s.ios.deployment_target = '8.0'
+
+  s.source           = { :git => 'https://github.com/togglehq/togglehq-ios-cocoapod.git', :tag => s.version.to_s }
 
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Underscore.m'
@@ -24,12 +23,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ToggleHQ.framework/**/*'
   s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
-  s.resources = 'ToggleHQ.framework/*{.xib,.nib}'
+  s.resources = ['ToggleHQ/**/*.{xib,nib}']
 
-  # s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/ToggleHQ' }
-  # s.preserve_paths = "ToggleHQ.framework/*"
-  # s.module_map = "ToggleHQ.framework/Modules/module.modulemap"
-
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
   s.vendored_frameworks = "ToggleHQ.framework"
 end
