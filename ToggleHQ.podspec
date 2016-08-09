@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.authors = { "ToggleHQ" => 'feedback+ios@togglehq.com' }
   s.ios.deployment_target = '8.0'
 
-  s.source           = { :git => 'https://github.com/togglehq/togglehq-ios-cocoapod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mikefogg/togglehq-ios-cocoapod.git', :tag => s.version.to_s }
 
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Underscore.m'
