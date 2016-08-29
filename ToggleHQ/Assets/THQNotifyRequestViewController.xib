@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11129.15" systemVersion="16A286a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="THQPushRequestViewController">
+            <connections>
+                <outlet property="alertIcon" destination="orW-cF-eHU" id="837-aq-TaQ"/>
+                <outlet property="customizeButton" destination="was-Od-1oh" id="peB-Y3-qhF"/>
+                <outlet property="headerLabel" destination="Udo-03-dEe" id="I6U-Zh-DcM"/>
+                <outlet property="keepMeUpdatedButton" destination="qlI-wg-ovy" id="bNn-Kc-fiM"/>
+                <outlet property="noThanksButton" destination="V38-Gr-8bR" id="cDW-bL-n7k"/>
+                <outlet property="subheaderLabel" destination="bWD-Uf-AoB" id="4EP-jq-vyI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="KxF-uB-vSG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="was-Od-1oh">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="q5W-4O-FvF"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.13100394606590271" green="0.40422910451889038" blue="0.8198244571685791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="customizeButtonTapped:" destination="-1" eventType="touchUpInside" id="j1k-Zo-hdr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlI-wg-ovy">
+                    <color key="backgroundColor" red="0.12975572760581028" green="0.40271597996023539" blue="0.82061609455958551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="RrN-G7-Qdd"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="keepMeUpdatedButtonTapped:" destination="-1" eventType="touchUpInside" id="aXI-oe-VOb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V38-Gr-8bR">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="hXm-t7-dI8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="noThanksButtonTapped:" destination="-1" eventType="touchUpInside" id="QmG-3Y-qlc"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thq-alert-icon-default.png" translatesAutoresizingMaskIntoConstraints="NO" id="orW-cF-eHU">
+                    <color key="backgroundColor" red="0.13100394606590271" green="0.40422910451889038" blue="0.8198244571685791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="124" id="5tr-1c-kdR"/>
+                        <constraint firstAttribute="height" constant="124" id="PQ4-2f-Ggj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udo-03-dEe">
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="Dfq-lK-iuY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subheader text goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWD-Uf-AoB">
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="HLz-zl-Jva"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="was-Od-1oh" secondAttribute="trailing" constant="20" id="2xB-mf-z33"/>
+                <constraint firstAttribute="bottom" secondItem="qlI-wg-ovy" secondAttribute="bottom" constant="130" id="5RJ-Xe-a0p"/>
+                <constraint firstItem="V38-Gr-8bR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5nf-VE-iHe"/>
+                <constraint firstItem="qlI-wg-ovy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="7Vj-VV-8Rm"/>
+                <constraint firstItem="Udo-03-dEe" firstAttribute="top" secondItem="orW-cF-eHU" secondAttribute="baseline" constant="20" id="DWG-RS-Bj6"/>
+                <constraint firstAttribute="trailing" secondItem="V38-Gr-8bR" secondAttribute="trailing" constant="20" id="EX1-Jj-U6d"/>
+                <constraint firstAttribute="trailing" secondItem="qlI-wg-ovy" secondAttribute="trailing" constant="20" id="KmU-d9-pB6"/>
+                <constraint firstItem="orW-cF-eHU" firstAttribute="centerX" secondItem="qlI-wg-ovy" secondAttribute="centerX" id="Kzh-0K-tH7"/>
+                <constraint firstItem="was-Od-1oh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="MhD-We-PuH"/>
+                <constraint firstAttribute="bottom" secondItem="was-Od-1oh" secondAttribute="bottom" constant="60" id="Pqp-zc-gmN"/>
+                <constraint firstAttribute="bottom" secondItem="V38-Gr-8bR" secondAttribute="bottom" id="Weh-YR-I4a"/>
+                <constraint firstItem="bWD-Uf-AoB" firstAttribute="top" secondItem="Udo-03-dEe" secondAttribute="bottom" constant="10" id="adq-YG-77h"/>
+                <constraint firstAttribute="trailing" secondItem="Udo-03-dEe" secondAttribute="trailing" constant="20" id="csd-dW-nC5"/>
+                <constraint firstItem="was-Od-1oh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="dhW-bY-eDI"/>
+                <constraint firstItem="qlI-wg-ovy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="f9j-nN-bhA"/>
+                <constraint firstAttribute="trailing" secondItem="bWD-Uf-AoB" secondAttribute="trailing" constant="20" id="fXL-1w-PVX"/>
+                <constraint firstItem="Udo-03-dEe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="qk1-u3-rMH"/>
+                <constraint firstAttribute="trailing" secondItem="was-Od-1oh" secondAttribute="trailing" constant="20" id="qvU-A4-U80"/>
+                <constraint firstItem="orW-cF-eHU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="uEf-Wr-Wut"/>
+                <constraint firstItem="bWD-Uf-AoB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="zxi-Ib-VpA"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="thq-alert-icon-default.png" width="248" height="248"/>
+    </resources>
+</document>

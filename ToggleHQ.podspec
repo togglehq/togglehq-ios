@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Underscore.m'
-  s.dependency 'SCLAlertView-Objective-C'
+  s.dependency 'STPopup'
 
   s.source_files = 'ToggleHQ.framework/**/*'
   s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
