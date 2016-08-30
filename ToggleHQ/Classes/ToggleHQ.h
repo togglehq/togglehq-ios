@@ -8,9 +8,9 @@
 FOUNDATION_EXPORT double ToggleHQVersionNumber;
 FOUNDATION_EXPORT const unsigned char ToggleHQVersionString[];
 
-#import <ToggleHQ/THQ.h>
-#import <ToggleHQ/THQManager.h>
-#import <ToggleHQ/THQNotify.h>
-#import <ToggleHQ/THQNotifySettingsViewController.h>
-#import <ToggleHQ/THQNotifyRequestViewController.h>
+#import "THQ.h"
+#import "THQManager.h"
+#import "THQNotify.h"
+#import "THQNotifySettingsViewController.h"
+#import "THQNotifyRequestViewController.h"
 
