@@ -21,14 +21,31 @@ Pod::Spec.new do |s|
   s.dependency 'Underscore.m'
   s.dependency 'STPopup'
 
-  s.source_files = 'ToggleHQ.framework/**/*'
-  s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
-  s.resources = ['ToggleHQ/**/*.{xib,nib}']
-
+  # s.source_files = 'ToggleHQ.framework/**/*'
+  # s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
+  # s.resources = ['ToggleHQ/**/*.{xib,nib}']
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
-  s.vendored_frameworks = "ToggleHQ.framework"
-  s.xcconfig = {
-    'FRAMEWORK_SEARCH_PATHS' => '"$(PROJECT_DIR)/Pods/ToggleHQ"',
-    'OTHER_LDFLAGS' => '-framework ToggleHQ'
-  }
+
+  s.default_subspec   = 'AllFeaturesLib'
+
+  s.subspec 'AllFeaturesLib' do |ss|
+    ss.vendored_frameworks = "ToggleHQ.framework"
+    # s.source_files = 'ToggleHQ.framework/'
+    # ss.public_header_files = 'ToggleHQ.framework/Headers/*.{h,xib,nib}'
+    # ss.resources = ['Assets/*.{png,xib,nib}']
+    ss.resource_bundles = {
+      'ToggleHQResources' => ['Assets/*.{png,xib,nib}']
+    }
+  end
+  #
+  # s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
+  # s.resources = ['ToggleHQ.framework/*.png', 'ToggleHQ.framework/*.{xib,nib}']
+  # s.vendored_frameworks = "ToggleHQ.framework"
+  # s.source_files = 'ToggleHQ.framework/**/**.{xib,nib}'
+  # s.public_header_files = 'ToggleHQ.framework/Headers/*{.h}'
+
+    # ss.xcconfig = {
+    #   'FRAMEWORK_SEARCH_PATHS' => '"$(PROJECT_DIR)/Pods/ToggleHQ"',
+    #   'OTHER_LDFLAGS' => '-framework ToggleHQ'
+    # }
 end
