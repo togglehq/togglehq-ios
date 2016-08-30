@@ -1,6 +1,0 @@
-framework module ToggleHQ {
-  umbrella header "ToggleHQ-umbrella.h"
-
-  export *
-  module * { export * }
-}
