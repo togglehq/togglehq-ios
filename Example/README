@@ -1,5 +1,0 @@
-1. Using Ruby 2.x:
-  sudo gem install cocoapods
-2. pod setup
-3. pod install
-4. open ToggleExample.xcworkspace/

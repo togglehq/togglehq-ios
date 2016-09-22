@@ -1,8 +1,0 @@
-platform :ios, '8.0'
-use_frameworks!
-
-target "ToggleExample" do
-  pod "AFNetworking", "~> 2.0"
-  pod "Underscore.m"
-  pod "ToggleHQ", :git => "https://github.com/togglehq/togglehq-ios-cocoapod.git"
-end
