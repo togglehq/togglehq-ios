@@ -1,5 +1,5 @@
 //
-//  THQNotifySettingsViewController.h
+//  THQNotifyPreferencesViewController.h
 //  ToggleExample
 //
 //  Created by Mike Fogg on 1/27/15.
@@ -11,7 +11,7 @@
 
 #define _ Underscore
 
-@interface THQNotifySettingsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface THQNotifyPreferencesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 // The table view
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
@@ -34,6 +34,6 @@
 //
 
 @interface THQNotifySwitch : UISwitch
-    @property (nonatomic, strong) NSString *group;
-    @property (nonatomic, strong) NSString *setting;
+    @property (nonatomic, strong) NSString *category;
+    @property (nonatomic, strong) NSString *preference;
 @end

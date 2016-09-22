@@ -11,6 +11,6 @@ FOUNDATION_EXPORT const unsigned char ToggleHQVersionString[];
 #import "THQ.h"
 #import "THQManager.h"
 #import "THQNotify.h"
-#import "THQNotifySettingsViewController.h"
+#import "THQNotifyPreferencesViewController.h"
 #import "THQNotifyRequestViewController.h"
 

@@ -22,14 +22,14 @@
 + (void)requestPushPermissions;
 
 //
-// Popup the custom settings request
+// Popup the custom preferences request
 //
 
-+ (void)requestCustomSettings;
-+ (void)requestCustomSettingsWithColor:(UIColor *)color;
-+ (void)requestCustomSettingsWithColor:(UIColor *)color icon:(UIImage *)icon;
-+ (void)requestCustomSettingsWithColor:(UIColor *)color icon:(UIImage *)icon header:(NSString *)header;
-+ (void)requestCustomSettingsWithColor:(UIColor *)color icon:(UIImage *)icon header:(NSString *)header subHeader:(NSString *)subHeader;
++ (void)requestCustomPreferences;
++ (void)requestCustomPreferencesWithColor:(UIColor *)color;
++ (void)requestCustomPreferencesWithColor:(UIColor *)color icon:(UIImage *)icon;
++ (void)requestCustomPreferencesWithColor:(UIColor *)color icon:(UIImage *)icon header:(NSString *)header;
++ (void)requestCustomPreferencesWithColor:(UIColor *)color icon:(UIImage *)icon header:(NSString *)header subHeader:(NSString *)subHeader;
 
 //
 // Enable the device
@@ -40,28 +40,20 @@
 + (void)enableDevice:(NSData *)data success:(void (^)(id))success failure:(void (^)(id))failure;
 
 //
-// Enable a setting for the current_user
+// Enable a preference for the current_user
 //
 
-+ (void)enableSettingWithGroup:(NSString *)group setting:(NSString *)setting;
-+ (void)enableSettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success;
-+ (void)enableSettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success failure:(void (^)(id))failure;
++ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference;
++ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
++ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
 
 //
-// Disable a setting for the current_user
+// Disable a preference for the current_user
 //
 
-+ (void)disableSettingWithGroup:(NSString *)group setting:(NSString *)setting;
-+ (void)disableSettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success;
-+ (void)disableSettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success failure:(void (^)(id))failure;;
-
-//
-// Enable ONLY a setting for the current_user (disables all but this one)
-//
-
-+ (void)enableOnlySettingWithGroup:(NSString *)group setting:(NSString *)setting;
-+ (void)enableOnlySettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success;
-+ (void)enableOnlySettingWithGroup:(NSString *)group setting:(NSString *)setting success:(void (^)(id))success failure:(void (^)(id))failure;
++ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference;
++ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
++ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
 
 // Verify a device has push enabled
 
@@ -70,17 +62,17 @@
 + (void)verifyPushEnabled:(void (^)(id))success failure:(void (^)(id))failure;
 
 //
-//  Get the current settings for a device
+//  Get the current preferences for a device
 //
 
-+ (void)getSettings:(void (^)(id))success;
-+ (void)getSettings:(void (^)(id))success failure:(void (^)(id))failure;
++ (void)getPreferences:(void (^)(id))success;
++ (void)getPreferences:(void (^)(id))success failure:(void (^)(id))failure;
 
 //
-// Open the settings window
+// Open the preferences window
 //
 
-+ (void)openSettingsWithNavigationController:(UINavigationController *)navigationController;
++ (void)openPreferencesWithNavigationController:(UINavigationController *)navigationController;
 
 //
 // Global Default UI Elements

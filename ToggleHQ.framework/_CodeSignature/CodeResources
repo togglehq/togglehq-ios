@@ -14,23 +14,23 @@
 		</data>
 		<key>Headers/THQNotify.h</key>
 		<data>
-		PHF9B3vCucOfCP8jwaWaDRj47l0=
+		yciYg6LR1a9bqHb7KfM8I315s2A=
+		</data>
+		<key>Headers/THQNotifyPreferencesViewController.h</key>
+		<data>
+		I1SIIOxgQEqH975MKaOYsTO9+i0=
 		</data>
 		<key>Headers/THQNotifyRequestViewController.h</key>
 		<data>
 		ZaTYXFsySCLTCvsnrqguoTN1s1Q=
 		</data>
-		<key>Headers/THQNotifySettingsViewController.h</key>
-		<data>
-		UIyJgpoJgWIlyZkzvJPeDZvKRWM=
-		</data>
 		<key>Headers/ToggleHQ.h</key>
 		<data>
-		HwbI3/xss4xJ2amuHA4rE32pK78=
+		tuNhvvXE+yCWDbriVRVNQ98HfBU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JUm7Eh+kK5fmBJWMLCaKroitrv4=
+		3fV8UV9kpCVr32dcYS1f14y7ST4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>THQNotifyRequestViewController.nib</key>
 		<data>
-		jKflZFhbmzPCY6NfGVxBocmefzc=
+		e8AeoUTBRk6v8mCJdlILQ+UZljc=
 		</data>
 		<key>thq-alert-icon-default.png</key>
 		<data>
@@ -81,11 +81,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PHF9B3vCucOfCP8jwaWaDRj47l0=
+			yciYg6LR1a9bqHb7KfM8I315s2A=
 			</data>
 			<key>hash2</key>
 			<data>
-			/tuLtR05wTNQfxvLnSBB2Ei6a7oXRRXtzDt1qYakTps=
+			xq+zOtjTF5iy3/Y5wazHtW2wHjNh1BWKC5eqOo/AFQc=
+			</data>
+		</dict>
+		<key>Headers/THQNotifyPreferencesViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1SIIOxgQEqH975MKaOYsTO9+i0=
+			</data>
+			<key>hash2</key>
+			<data>
+			LMTcfX4Ekne5ZEPA5SryFx4EocFpDO6ceJPAWsIDO+g=
 			</data>
 		</dict>
 		<key>Headers/THQNotifyRequestViewController.h</key>
@@ -99,26 +110,15 @@
 			4GRpYZCUqQR40vc1G+HlVFvU4iCtjikYDaYhlWmSdt0=
 			</data>
 		</dict>
-		<key>Headers/THQNotifySettingsViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UIyJgpoJgWIlyZkzvJPeDZvKRWM=
-			</data>
-			<key>hash2</key>
-			<data>
-			u9DwysDBvS6HcvCOpKay2OH+XQoVOsIfu/ro2PVnCSM=
-			</data>
-		</dict>
 		<key>Headers/ToggleHQ.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HwbI3/xss4xJ2amuHA4rE32pK78=
+			tuNhvvXE+yCWDbriVRVNQ98HfBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			jhTIQHUiptwKOAIm+hX27HuodizDmGW/dgIoduzS4Bg=
+			jvDLmmuCbO8Xh6gDYXoa106n02L1qv22EK9GKs4VBAk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jKflZFhbmzPCY6NfGVxBocmefzc=
+			e8AeoUTBRk6v8mCJdlILQ+UZljc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bshOUEaGvDNyt4BkrWLrO0r71w7uxtfU7rJJszBmksM=
+			4DvcZGqD3foylq6yFphw6ccFBc0oepywIYYxn2zJuLc=
 			</data>
 		</dict>
 		<key>thq-alert-icon-default.png</key>
