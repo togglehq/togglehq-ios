@@ -43,17 +43,17 @@
 // Enable a preference for the current_user
 //
 
-+ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference;
-+ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
-+ (void)enablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
++ (void)enablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference;
++ (void)enablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
++ (void)enablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
 
 //
 // Disable a preference for the current_user
 //
 
-+ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference;
-+ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
-+ (void)disablePreferenceWithGroup:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
++ (void)disablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference;
++ (void)disablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success;
++ (void)disablePreferenceWithCategory:(NSString *)category preference:(NSString *)preference success:(void (^)(id))success failure:(void (^)(id))failure;
 
 // Verify a device has push enabled
 
