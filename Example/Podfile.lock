@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - STPopup (1.7.1)
+  - ToggleHQ (0.1.0):
+    - AFNetworking (~> 2.3)
+    - STPopup
+    - ToggleHQ/AllFeaturesLib (= 0.1.0)
+    - Underscore.m
+  - ToggleHQ/AllFeaturesLib (0.1.0):
+    - AFNetworking (~> 2.3)
+    - STPopup
+    - Underscore.m
+  - Underscore.m (0.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - ToggleHQ (from `https://github.com/togglehq/togglehq-ios-cocoapod.git`, branch `feature/rename_groups_to_categories`)
+  - Underscore.m
+
+EXTERNAL SOURCES:
+  ToggleHQ:
+    :branch: feature/rename_groups_to_categories
+    :git: https://github.com/togglehq/togglehq-ios-cocoapod.git
+
+CHECKOUT OPTIONS:
+  ToggleHQ:
+    :commit: 0db6e47d526e7774554d4c5596106dccc2af2855
+    :git: https://github.com/togglehq/togglehq-ios-cocoapod.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  STPopup: 7d9ea4759e4323141a4d5c259e547df2734427af
+  ToggleHQ: 256010ba32a4e846a60416ca969f9a5e7b4b80e9
+  Underscore.m: dc9ca06fe2c9a79d01ce20c3d2c1e8f91f2d92dc
+
+PODFILE CHECKSUM: 399c96f7021e4397f1bef951266b77e494a13211
+
+COCOAPODS: 1.1.0.rc.2
