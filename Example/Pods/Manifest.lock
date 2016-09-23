@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ToggleHQ:
-    :commit: 0db6e47d526e7774554d4c5596106dccc2af2855
+    :commit: 4d715b0a91664335f417811e850d707e7a22db59
     :git: https://github.com/togglehq/togglehq-ios-cocoapod.git
 
 SPEC CHECKSUMS:
